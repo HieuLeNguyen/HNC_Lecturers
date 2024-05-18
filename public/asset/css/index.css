@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* ====== scrollbar ====== */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--background-color);
+  border-radius: 4px;
+}
+
+/* ========== navbar  ==========*/
+.navbar {
+  background-color: var(--background-color) !important;
+}
+
+.navbar-toggler-icon {
+  outline: none !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.navbar__padd {
+  padding-left: 254px;
+  padding-right: 475px;
+}
+
+/* .dropdown:hover .dropdown-menu {
+  display: block;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} */
+
+/* ====== menu nhập điểm ========== */
+.dropdown-menu li {
+  position: relative;
+}
+
+.dropdown-menu .submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+
+.dropdown-menu > li:hover > .submenu {
+  display: block;
+}
+
+.nav-item.dropdown .dropdown-item:active {
+  color: #000;
+  background-color: #fefefe !important;
+}
+
+.dropdown-menu .submenu li a {
+  font-size: 1rem;
+}
+
+/* ======= content ======= */
+.content {
+  margin-top: 43px;
+  padding-left: 254px !important;
+  padding-right: 254px !important;
+}
+
+.content__title {
+  font-size: 1.875rem;
+  font-weight: 400;
+  color: var(--colorDefault);
+}
+.content__description {
+  margin-top: 16px;
+  padding-left: 0;
+}
+.content .content__description-item {
+  list-style: none;
+  line-height: 30px;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.hr {
+  width: 100%;
+  margin-top: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+
+/* ====== footer ======= */
+.footer {
+  width: 20%;
+  float: right;
+  text-align: center;
+  margin-top: 23px;
+}
+
+.footer__nameScholl {
+  font-size: 1rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  color: #ccc;
+  font-size: 0.875rem;
+}
+
+/* ======== responsive ========= */
+/* mobile */
+@media only screen and (max-width: 320px) {
+  .content {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .navbar__padd {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .footer {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .navbar__padd {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .content {
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+  }
+
+  .footer {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+
+  .dropdown-menu .submenu {
+    left: 0%;
+    top: 28px;
+    width: 100%;
+  }
+
+  .dropdown-menu .submenu li .dropdown-item {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 766px) {
+  .navbar__padd {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .content {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .dropdown-menu .submenu {
+    left: 0%;
+    top: 28px;
+    width: 100%;
+  }
+
+  .dropdown-menu .submenu li a {
+    font-size: 0.9rem;
+  }
+}
+
+/* tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar__padd {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .content {
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+  }
+
+  .footer {
+    width: 28%;
+    margin-bottom: 20px;
+  }
+
+  .dropdown-menu .submenu {
+    left: 0%;
+    top: 28px;
+    width: 100%;
+  }
+
+  .dropdown-menu .submenu li a {
+    font-size: 1rem;
+  }
+}
+
+/* destop and laptop computer */
+@media only screen and (min-width: 1025px) and (max-width: 1224px) {
+  .navbar__padd {
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+  .dropdown-menu .submenu {
+    top: 28px;
+    width: 100%;
+  }
+
+  .dropdown-menu .submenu li a {
+    font-size: 1rem;
+  }
+
+  .content {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+
+  .footer {
+    width: 28%;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .navbar__padd {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .content {
+    padding-left: 110px !important;
+    padding-right: 110px !important;
+  }
+
+  .dropdown-menu .submenu li a {
+    font-size: 1rem;
+  }
+}

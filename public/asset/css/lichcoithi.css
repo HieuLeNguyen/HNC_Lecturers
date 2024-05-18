@@ -1,0 +1,164 @@
+div.content__lichcoithi {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.content__name {
+  color: var(--colorDefault);
+  font-weight: 500;
+}
+
+.hocky:focus,
+.namhoc:focus {
+  border: 1px solid var(--colorDefault);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.button_lich {
+  color: #fff;
+  background-color: var(--colorDefault);
+  padding: 6px 20px;
+  border: 1px solid var(--colorDefault);
+  border-radius: 6px;
+}
+
+.bgc__th {
+  color: var(--colorDefault) !important;
+  font-weight: 500 !important;
+}
+
+/* ====== menu nhập điểm ========== */
+.dropdown-menu li {
+  position: relative;
+}
+
+.dropdown-menu .submenu1 {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+
+.dropdown-menu > li:hover > .submenu1 {
+  display: block;
+}
+
+.nav-item.dropdown .dropdown-item:active {
+  color: #000;
+  background-color: #fefefe !important;
+}
+
+.dropdown-menu .submenu li a {
+  font-size: 1rem;
+}
+
+/* ====== table ====== */
+.tr__title td {
+  font-size: 0.875rem;
+}
+
+/* =========== loading ========== */
+.spinner-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  transition: all 0.2s;
+}
+/* =========== responsive =========== */
+// mobile in Portrait mode
+@media only screen and (max-width: 320px) {
+  .btn__timkiem {
+    margin-top: 0px !important;
+  }
+
+  .content__lichcoithi {
+    padding: 0 10px !important;
+  }
+
+  .dropdown-menu .submenu1 {
+    left: 0%;
+    top: 28px;
+    width: 100%;
+  }
+
+  .dropdown-menu .submenu li .dropdown-item {
+    font-size: 0.9rem;
+  }
+}
+
+// mobile in Landscape mode
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .btn__timkiem {
+    margin-top: 0px !important;
+  }
+  .content__lichcoithi {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .dropdown-menu .submenu1 {
+    left: 0% !important;
+    top: 28px !important;
+  }
+
+  .dropdown-menu .submenu li a {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 766px) {
+  .btn__timkiem {
+    margin-top: 0px !important;
+  }
+
+  .footer {
+    width: 40%;
+  }
+
+  .dropdown-menu .submenu1 {
+    left: 0%;
+    top: 30px;
+    width: 100%;
+  }
+
+  .dropdown-menu .submenu1 li a {
+    font-size: 1rem;
+  }
+}
+/* tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .btn__timkiem {
+    margin-top: 0px !important;
+  }
+
+  .dropdown-menu .submenu1 {
+    left: 0%;
+    top: 28px;
+    width: 100%;
+  }
+
+  .dropdown-menu .submenu1 li a {
+    font-size: 1rem;
+  }
+}
+
+// destop
+
+@media screen and (min-width: 1024px) {
+  .btn__timkiem {
+    margin-top: 28px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+}

@@ -1,0 +1,76 @@
+/* Phần form login:  */
+.fm-login {
+    border-radius: 30px;
+    border: 1px solid #CCC;
+    background: #FFF;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.16);
+}
+
+.container-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Phần đầu trang Login: Componnet  */
+.head_general-info {
+    padding-top: 46px;
+}
+
+/* For desktop */
+@media (min-width: 768px) {
+    .head--title-top {
+        font-size: 20px;
+        /* Font size for desktop */
+    }
+}
+
+/* For mobile */
+@media (max-width: 767px) {
+    .head--title-top {
+        font-size: 14px;
+        /* Font size for mobile */
+    }
+
+    .guest-sidebar {
+        display: none !important;
+    }
+}
+
+@media (min-height: 900px) {
+    .guest-overflow-hidden {
+        overflow: hidden;
+    }
+}
+
+.guest-sidebar {
+    max-width: 400px;
+    display: ruby;
+    align-items: center;
+    background: rgba(204, 204, 204, 0.60);
+    padding-top: 64px;
+}
+
+.logo-main {
+    max-width: 120px;
+    height: 120px;
+}
+
+.logo-main a {
+    display: block;
+    max-width: 120px;
+    height: 100%;
+}
+
+.logo-main img {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+/* Phần chân trang  */
+.footer_producer {
+    text-align: center;
+}

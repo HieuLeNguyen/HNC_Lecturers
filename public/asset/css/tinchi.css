@@ -1,0 +1,112 @@
+/* ========== tín chỉ ======= */
+.content__tinchi-title {
+  color: var(--colorDefault);
+  font-size: 1.4rem;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.content__name {
+  color: var(--colorDefault);
+  font-weight: 500;
+}
+
+select {
+  cursor: pointer;
+}
+.bgc__th {
+  color: var(--colorDefault) !important;
+}
+
+.hocky:focus,
+.namhoc:focus,
+.dot:focus,
+.matui:focus,
+.monhoc:focus {
+  border: 1px solid var(--colorDefault);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.button_tinchi {
+  color: #fff;
+  background-color: var(--colorDefault);
+  padding: 6px 20px;
+  border: 1px solid var(--colorDefault);
+  border-radius: 6px;
+}
+
+.button_excell {
+  margin-top: 10px;
+  color: #fff;
+  background-color: var(--colorExcell);
+  padding: 6px 20px;
+  border: 1px solid var(--colorExcell);
+  border-radius: 6px;
+}
+
+.search_select_box {
+  max-width: 400px;
+  width: 100%;
+}
+
+tbody tr td {
+  font-size: 0.875rem;
+}
+td .btn__handle1,
+td .btn__handle2,
+td .btn__handle3 {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+td .btn__handle1 {
+  background-color: var(--colorDefault);
+  border: 1px solid var(--colorDefault);
+  cursor: pointer;
+}
+
+td .btn__handle2 {
+  background-color: var(--colorImport);
+  border: 1px solid var(--colorImport);
+  cursor: pointer;
+}
+
+td .btn__handle3 {
+  background-color: var(--colorExcell);
+  border: 1px solid var(--colorExcell);
+  cursor: pointer;
+}
+
+/* =========== loading ========== */
+.spinner-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  transition: all 0.2s;
+}
+
+/* ============ table danh sách sinh viên ========== */
+.btn__xoaSV {
+  float: right;
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* ========== responsive ========= */
+@media screen and (max-width: 768px) {
+  .form__tinchi {
+    padding: 0 12px;
+  }
+}

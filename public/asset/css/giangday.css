@@ -1,0 +1,91 @@
+/* =========== table ========= */
+.content__kyluat-title {
+  color: var(--colorDefault);
+  font-size: 1.4rem;
+  margin-top: 30px;
+  text-align: center;
+}
+.content__name {
+  color: var(--colorDefault);
+  font-weight: 500;
+}
+
+select {
+  cursor: pointer;
+}
+
+.bgc__th {
+  color: var(--colorDefault) !important;
+}
+
+.hocky:focus,
+.namhoc:focus,
+.dot:focus,
+.matui:focus,
+.monhoc:focus {
+  border: 1px solid var(--colorDefault);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.ot__hover:hover {
+  background-color: var(--colorDefault) !important;
+  color: white;
+}
+
+.button_kyluat {
+  color: #fff;
+  background-color: var(--colorDefault);
+  padding: 6px 20px;
+  border: 1px solid var(--colorDefault);
+  border-radius: 6px;
+}
+
+.search_select_box {
+  max-width: 400px;
+  width: 100%;
+}
+
+/* ============ table =========== */
+.tr__title {
+  font-size: 0.875rem;
+}
+
+.btn__handle1,
+.btn__handle2,
+.btn__handle3,
+.btn__handle4 {
+  color: #fff;
+  border: none;
+  padding: 6px 20px;
+  border-radius: 6px;
+}
+
+.btn__handle1 {
+  background-color: var(--colorDefault);
+}
+
+.btn__handle2 {
+  background-color: var(--colorImport);
+}
+
+.btn__handle3 {
+  background-color: var(--colorExcell);
+}
+
+.btn__handle4 {
+  background-color: var(--colorExcell);
+}
+
+/* =========== loading ========== */
+.spinner-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  transition: all 0.2s;
+}

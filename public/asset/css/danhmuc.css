@@ -1,0 +1,80 @@
+/* ======= table ======== */
+.content__danhmuc {
+  display: none;
+  padding-left: 254px !important;
+  padding-right: 254px !important;
+}
+
+/* ====== table ====== */
+.tr__title td {
+  font-size: 0.875rem;
+}
+
+.table-focus tbody tr:focus {
+  background-color: #cce5ff;
+  outline: none;
+}
+
+.content__danhmuc-btn {
+  border: none;
+  border-radius: 0.25rem;
+  padding: 6px 10px;
+  color: #fff;
+  background-color: var(--background-color);
+}
+
+/* =========== loading ========== */
+.spinner-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  transition: all 0.2s;
+}
+
+/* ======== responsive ========= */
+/* mobile */
+@media only screen and (max-width: 320px) {
+  .content__danhmuc {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .footer {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .content__danhmuc {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .footer {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 766px) {
+  .content__danhmuc {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .footer {
+    width: 70%;
+  }
+}
+
+/* tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .content__danhmuc {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
