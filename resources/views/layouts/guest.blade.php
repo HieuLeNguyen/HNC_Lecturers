@@ -8,6 +8,7 @@
         <title>{{ config('app.name', 'HNC') }}</title>
 
         <base href="./">
+        <link rel="shortcut icon" href="{{asset('asset')}}/images/logoHNC.png" type="image/x-icon" />
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

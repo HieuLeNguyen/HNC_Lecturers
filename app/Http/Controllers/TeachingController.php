@@ -3,12 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\User;
 
-class LecturerController extends Controller
+class TeachingController extends Controller
 {
     public function index()
     {
-        return view('dashboard');
+        return view('pages.home');
     }
 }

@@ -220,6 +220,8 @@ return [
         'year'                  => 'năm',
         //customize
         'MaGV'                  => 'mã giảng viên',
+        'current_password'      => 'mật khẩu hiện tại',
+
     ],
 
 ];
