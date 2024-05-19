@@ -74,3 +74,17 @@
 .footer_producer {
     text-align: center;
 }
+
+.btn-user,
+.btn-lock {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    background: #EEE;
+    margin-top: 4px;
+}
+

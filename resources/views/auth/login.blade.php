@@ -6,16 +6,20 @@
         @csrf
 
         <!-- MaGV  -->
-        <div class="mt-3">
-
+        <div class="mt-3 d-flex items-center">
+            <div class="btn-user">
+                <img src="{{asset('asset')}}/icons/user-solid.svg" alt="user-icon" width="24px">
+            </div>
             <x-text-input id="MaGV" class="block mt-1 w-full" type="text" name="MaGV" :value="old('MaGV')" required
                 autofocus placeholder="Tên đăng nhập" autocomplete="username" />
             <x-input-error :messages="$errors->get('MaGV')" class="mt-2" />
         </div>
 
         <!-- Password -->
-        <div class="mt-4">
-
+        <div class="mt-4 d-flex items-center">
+            <div class="btn-lock ">
+                <img src="{{asset('asset')}}/icons/lock-solid.svg" alt="lock-icon" width="24px">
+            </div>
             <x-text-input id="password" class="block mt-1 w-full" type="password" name="password" required
                 placeholder="Mật khẩu" autocomplete="current-password" />
 
