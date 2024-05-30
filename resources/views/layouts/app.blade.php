@@ -21,6 +21,16 @@
         <link rel="stylesheet" href="{{asset('asset')}}/css/index.css">
         <link rel="stylesheet" href="{{asset('asset')}}/css/info.css">
 
+        <link rel="stylesheet" href="{{asset('asset')}}/css/responsive.css">
+        {{-- <link rel="stylesheet" href="{{asset('asset')}}/css/responsive.css"> --}}
+        <link rel="stylesheet" href="{{asset('asset')}}/css/lienhe.css">
+        <link rel="stylesheet" href="{{asset('asset')}}/css/responsive.css">
+
+
+        <!-- icon -->
+        <script defer type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script defer nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
