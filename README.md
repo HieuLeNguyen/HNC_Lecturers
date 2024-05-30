@@ -57,11 +57,16 @@ DB_PASSWORD=
 ```
 php artisan migrate
 ```
-7.cài đặt khóa key app: 
+7.cài đặt npm: 
 ```
-php artisan key:generate 
+npm install
+> npm run dev 
 ````
-8. Khởi động máy chủ phát triển:
+8.cài đặt khóa key app: 
+```
+php artisan key:generate
+```
+9. Khởi động máy chủ phát triển:
 ```
 php artisan serve
 ```
