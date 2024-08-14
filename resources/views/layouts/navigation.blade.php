@@ -7,7 +7,7 @@
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                     {{-- Home page -- 'Sổ tay giảng viên' --}}
-                    <x-nav-link :href="route('teaching')" :active="request()->routeIs('teaching')">
+                    <x-nav-link :href="route('home')" :active="request()->routeIs('home')">
                         {{ __('Trang Chủ') }}
                     </x-nav-link>
 
@@ -66,7 +66,7 @@
                                     {{ __('Xem thời khoá biểu') }}
                                 </x-dropdown-link>
 
-                                <x-dropdown-link :href="route('teaching')">
+                                <x-dropdown-link :href="route('home')">
                                     {{ __('Sổ nhật ký giảng dạy') }}
                                 </x-dropdown-link>
                             </x-slot>

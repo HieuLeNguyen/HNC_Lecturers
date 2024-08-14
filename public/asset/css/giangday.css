@@ -18,6 +18,13 @@ select {
   color: var(--colorDefault) !important;
 }
 
+input.monhoc {
+    border-radius: 6px;
+    border-color: #dee2e6;
+    padding: 6px;
+    margin-top: 6px;
+}
+
 .hocky:focus,
 .namhoc:focus,
 .dot:focus,
